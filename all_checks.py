@@ -6,6 +6,7 @@ import sys
 def check_reboot():
     pass
 
+
 def main():
     if check_reboot():
         print("Pending Reboot.")
