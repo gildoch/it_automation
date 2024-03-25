@@ -1,5 +1,4 @@
-Menu1:
-
+Menu1
 Apples
 Bananas
 Oranges
