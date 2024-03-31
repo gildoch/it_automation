@@ -20,6 +20,7 @@ def check_disk_full(disk, min_gb, min_percent):
     return False
 
 def check_root_full():
+    """Resturns True if disk is full"""
     return check_disk_full(disk='/', min_gb=2, min_percent=10)
 
 def main(): 
